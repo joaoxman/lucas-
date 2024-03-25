@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
 :root {
     --cor-de-fundo: #1E1E1E;
     --verde: #6FFF57;
@@ -9,7 +10,7 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: "Rakkas", serif;
 }
 .conteudo-principal {
     display: flex;
@@ -29,5 +30,14 @@ body {
     width: 100%;
     font-size: 32px;
 }
+.botao{
+    font-family: "Rakkas", serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
